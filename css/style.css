@@ -1,0 +1,91 @@
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+html, body, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dt, dd, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    background-color: #635854;
+    border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: 180px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    column-gap: 80px;
+    font-size: 16px;
+    line-height: 1.187;
+}
+
+.navbar-item {
+
+}
+
+.navbar-link {
+    color: #fff;
+}
+
+.navbar-contacts {
+    text-align: right;
+}
+
+.navbar-text {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 1.142;
+}
+
+.navbar-phone {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.176;
+}
